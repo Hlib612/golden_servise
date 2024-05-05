@@ -21,6 +21,7 @@ body {
   font-weight: 400;
   text-decoration: none;
   color:var(--accent-color);
+  font-size: 36px;
  }
  a {
   text-decoration: none;
