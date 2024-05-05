@@ -8,6 +8,7 @@ body {
   font-size: 14px;
   letter-spacing: -0.02em;
   color: var(--text-color);
+  font-family: 'Roboto Slab', serif;
 }
 .container{
     width: 1200px;
@@ -16,6 +17,19 @@ body {
     margin: 0 auto;
  }
  .logo{
-  
+  font-family: 'Bilbo Swash Caps', serif;
+  font-weight: 400;
+  text-decoration: none;
+  color:var(--accent-color);
  }
+ a {
+  text-decoration: none;
+  font-family: 'Montserrat', serif;
+ }
+ .header-nav-list{
+  color: var(--accent-color);
+ }
+.section-contact_us-title{
+  background-color: #222;
+}
  
