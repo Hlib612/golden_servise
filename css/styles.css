@@ -16,6 +16,13 @@ body {
     outline: 2px dashed red;
     margin: 0 auto;
  }
+ .flex{
+display: flex;
+ }
+ .header{
+  padding-top: 44px;
+  margin-bottom: 109px;
+ }
  .logo{
   font-family: 'Bilbo Swash Caps', serif;
   font-weight: 400;
@@ -27,10 +34,46 @@ body {
   text-decoration: none;
   font-family: 'Montserrat', serif;
  }
+ ul{
+  list-style-type: none;
+ }
  .header-nav-list{
+  gap: 10px;
+ }
+ .header-nav-list-item{
   color: var(--accent-color);
  }
-.section-contact_us-title{
-  background-color: #222;
+ .services{
+  margin-bottom: 119px;
+ }
+ .services-list-item::before{
+  content: "";
+ }
+ .services-list{
+  gap: 56px;
+  justify-content: center;
+ }
+ .services-title{
+  font-weight: 700;
+font-size: 40px;
+line-height: 187%;
+letter-spacing: -0.03em;
+text-transform: uppercase;
+text-align: center;
+color: #222222;
+font-family: 'Montserrat', serif;
+ }
+ .services-list-title{
+  font-family: 'Montserrat', serif;
+  font-weight: 700;
+font-size: 18px;
+line-height: 417%;
+text-align: center;
+color: #222222;
+ }
+.background{
+  background-color: black;
+}
+.section-contact_us{
 }
  

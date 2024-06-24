@@ -17,9 +17,10 @@
   </head>
   <body>
     <header class="header">
-      <nav class="header-nav">
+      <div class="container">
+      <nav class="header-nav flex">
         <a href="./" class="logo">Golden</a>
-        <ul class="header-nav-list">
+        <ul class="header-nav-list flex">
           <li class="header-nav-list-item">
             <a href="./">Home</a>
           </li>
@@ -37,44 +38,48 @@
           </li>
         </ul>
       </nav>
+    </div>
     </header>
     <main>
-      <section>
+      <section class="services">
+        <div class="container">
         <h2 class="services-title">Services</h2>
-        <ul class="services-list">
-          <li>
+        <ul class="services-list flex">
+          <li class="services-list-item">
             <h3 class="services-list-title">E-Commerce</h3>
             <p class="services-list-description">
-              Proin iaculis purus consequat sem cure digni ssim. Donec
-              porttitora entum suscipit aenean rhoncus posuere odio in
+              Proin iaculis purus consequat sem cure<br> digni ssim. Donec
+              porttitora entum suscipit<br> aenean rhoncus posuere odio in
               tincidunt.
             </p>
           </li>
-          <li>
+          <li class="services-list-item">
             <h3 class="services-list-title">Responsive Web</h3>
             <p class="services-list-description">
-              Proin iaculis purus consequat sem cure digni ssim. Donec
-              porttitora entum suscipit aenean rhoncus posuere odio in
+              Proin iaculis purus consequat sem cure<br> digni ssim. Donec
+              porttitora entum suscipit<br> aenean rhoncus posuere odio in
               tincidunt.
             </p>
           </li>
 
-          <li>
+          <li class="services-list-item">
             <h3 class="services-list-title">Web Security</h3>
             <p class="services-list-description">
-              Proin iaculis purus consequat sem cure digni ssim. Donec
-              porttitora entum suscipit aenean rhoncus posuere odio in
+              Proin iaculis purus consequat sem cure<br> digni ssim. Donec
+              porttitora entum suscipit<br> aenean rhoncus posuere odio in
               tincidunt.
             </p>
           </li>
         </ul>
+      </div>
       </section>
       <section class="section-contact_us">
+        <div class="container background">
         <h2 class="section-contact_us-title">Contact us</h2>
-        <form class="form">
+        <form class="section-contact_us-title-form flex">
           <label>
             name
-            <input type="name" name="name" />
+            <input type="name" name="name" class="section-contact_us-title-input" />
           </label>
           <label>
             email
@@ -92,6 +97,7 @@
             <button class="send-button">send massage</button>
           </label>
         </form>
+      </div>
       </section>
     </main>
   </body>
